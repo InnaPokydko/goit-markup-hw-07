@@ -524,6 +524,10 @@ ul {
   margin-top: 20px;
 }
 
+.address__item:not(:first-child) {
+  margin-top: 9px;
+}
+
 .address__link {
   color: var(--primary-background-color);
   font-family: "Roboto", sans-serif;
@@ -534,10 +538,6 @@ ul {
   text-decoration: none;
 }
 
-.address__item:not(:first-child) {
-  margin-top: 9px;
-}
-
 .footer-link {
   color: var(--footer-text-color);
   font-style: normal;
@@ -545,29 +545,21 @@ ul {
 
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.footer-emeil:hover,
-.footer-tel:hover {
-  color: var(--footer-text-color);
-}
 
-.footer-emeil:hover,
-.footer-tel:hover {
+!
+.address__emeil:hover,
+.address__tel:hover,
+.address__emeil:focus,
+.address__tel:focus {
   color: var(--accent-color);
 }
 
-.footer-emeil:focus,
-.footer-tel:focus {
-  color: var(--accent-color);
-}
-
-
-
-.form-footer {
+ .form {
   justify-content: flex-end;
   margin-left: 23px;
 }
 
-.form-box {
+.form__box {
   display: flex;
   justify-content: flex-end;
   margin-right: 0;
@@ -576,7 +568,7 @@ ul {
   gap: 12px;
 }
 
-.form-footer-input {
+.form__input {
   width: 358px;
   height: 50px;
   padding: 15px 16px;
@@ -587,7 +579,7 @@ ul {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
-.form-footer-input:placeholder-shown {
+.form__input:placeholder-shown {
   color: rgba(255, 255, 255, 0.6);
 
   font-weight: 400;
