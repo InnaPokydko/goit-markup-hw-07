@@ -207,8 +207,8 @@ ul {
   padding: 32px 0;
 }
 
-.auth__icon__emeil,
-.auth__icon__tel {
+.auth__iconemeil,
+.auth__icontel {
   margin-right: 10px;
   fill: currentColor;
 }
@@ -514,12 +514,12 @@ ul {
   align-items: baseline;
 }
 
-.footer__logo--color {
+.logo--color {
   color: var(--accent-color);
   text-decoration: none;
 }
 
-.footer__studio--color {
+.logo--colorstudio {
   color: var(--primary-background-color);
 }
 
@@ -652,8 +652,6 @@ ul {
 }
 
 .card-set {
-  list-style: none;
-
   display: flex;
   flex-wrap: wrap;
   margin-right: -30px;
