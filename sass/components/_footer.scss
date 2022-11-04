@@ -1,0 +1,15 @@
+.footer {
+    background-color: var(--secondary-background-color);
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  
+  .footer__flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+  }
+  
+  .logo--colorstudio {
+    color: var(--primary-background-color);
+  }
