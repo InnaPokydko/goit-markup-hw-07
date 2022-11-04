@@ -3,8 +3,8 @@
     {
         "format": "compressed",
         "extensionName": ".min.css",
-        "savePath": null,
-        "savePathReplacementPairs": null
+        "savePath": "/css"
+        
     }
 ]
 }
