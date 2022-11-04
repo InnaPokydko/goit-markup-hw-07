@@ -514,11 +514,6 @@ ul {
   align-items: baseline;
 }
 
-.logo--color {
-  color: var(--accent-color);
-  text-decoration: none;
-}
-
 .logo--colorstudio {
   color: var(--primary-background-color);
 }
