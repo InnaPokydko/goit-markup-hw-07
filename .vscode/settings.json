@@ -1,10 +1,24 @@
-{"liveSassCompile.settings.formats": [
-
-    {
-        "format": "compressed",
-        "extensionName": ".min.css",
-        "savePath": "/css"
+{
+    "files.autoSave": "onFocusChange",
+    "[css]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "liveServer.settings.donotShowInfoMsg": true,
+    "workbench.colorTheme": "Visual Studio Dark",
+    "liveSassCompile.settings.forceBaseDirectory": "",
+    "liveSassCompile.settings.formats": [
+    
         
-    }
-]
+
+
+        {
+            "format": "compressed",
+            "extensionName": ".min.css",
+            "savePath": "/css",
+            "savePathReplacementPairs": null
+        }
+    ]
 }
