@@ -34,7 +34,7 @@
     cursor: pointer;
   }
   
-  .close-button:hover {
+  &:hover {
     fill: var(--accent-color);
   }
   

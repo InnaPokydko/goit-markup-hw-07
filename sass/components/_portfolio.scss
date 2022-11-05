@@ -21,7 +21,7 @@
     line-height: 1.6;
   }
   
-  .portfolio__button:hover {
+  &:hover {
     background-color: var(--accent-color);
     color: var(--primary-background-color);
   
@@ -29,7 +29,7 @@
       0px 3px rgba(0, 0, 0, 0.1);
   }
   
-  .portfolio__button:focus {
+  &:focus {
     background-color: var(--accent-color);
     color: var(--primary-background-color);
   

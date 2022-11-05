@@ -13,6 +13,11 @@
     margin-top: 20px;
   }
   
+  &:hover,
+  &:focus {
+    background-color: var(--accent-color);
+  }
+  
   .networks__link--color {
     background-color: var(--net-background-color);
     color: var(--primary-background-color);
@@ -20,7 +25,3 @@
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
   
-  .networks__link:hover,
-  .networks__link:focus {
-    background-color: var(--accent-color);
-  }
