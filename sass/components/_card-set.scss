@@ -24,3 +24,11 @@
       1px 4px 6px rgba(0, 0, 0, 0.16);
   }
 }
+
+.card-set__link:hover .overlay__card {
+  transform: translateY(0);
+}
+
+.card-set__link:focus .overlay__card {
+  transform: translateY(0);
+}
