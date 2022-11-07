@@ -11,14 +11,8 @@
     display: flex;
     gap: 10px;
     margin-top: 20px;
-  
-  
-  &:hover,
-  &:focus {
-    background-color: var(--accent-color);
-  }
-}
-  
+    }
+
   .networks__link--color {
     background-color: var(--net-background-color);
     color: var(--primary-background-color);
