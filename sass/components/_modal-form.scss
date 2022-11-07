@@ -47,7 +47,7 @@
   }
 }
   
-  &:focus-within .modal-form__icon {
+.modal-form__input:focus-within .modal-form__icon {
     fill: var(--accent-color);
   }
   
