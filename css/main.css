@@ -965,7 +965,6 @@ ul {
 .checkbox__icon {
   content: "";
   position: absolute;
-  fill: var(--primary-background-color);
   top: 50%;
   left: 8px;
   -webkit-transform: translateY(-50%);
@@ -979,8 +978,7 @@ ul {
   -webkit-transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-.checkbox-input:checked ~ .checkbox__icon {
+.checkbox__input:checked ~ .checkbox__icon {
   background-color: var(--accent-color);
   border: none;
   fill: var(--primary-background-color);
