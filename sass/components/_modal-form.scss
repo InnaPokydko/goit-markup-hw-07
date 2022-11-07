@@ -63,11 +63,11 @@
     line-height: calc(14.06 / 12);
     color: var(--primary-text-color);
     margin-bottom: 0;
-  }
-  
+    
   &:focus {
     border-color: var(--accent-color);
   }
+}
 
   .modal-form__button {
     display: block;
